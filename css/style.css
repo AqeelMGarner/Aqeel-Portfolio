@@ -1,0 +1,60 @@
+:root {
+  -font-family: -apple-system;
+  -
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  background-color: darkgrey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+.header {
+  padding: 15px;
+  font-family: var(-font-family);
+  background-color: yellow;
+
+}
+.header h1 {
+  font-size: 25px;
+  color: blue;
+  display: inline-block;
+}
+.header nav {
+  float: right;
+  font-family:var(-font-family);
+  margin-right: 20px;
+}
+.header ul li {
+  display: inline-block;
+}
+.nav bar {
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+}
+.hero-banner {
+  float: right;
+  background-color: aqua;
+  background-image: url("../images/02-hero-bg.jpg");
+  background-position: center;
+  background-size: 250px;
+}
