@@ -12,9 +12,9 @@
 <body>
   <!-- main logo / nav -->
   <header class="header">
-    <h1>A M Garner</h1>
+    <h1 class="titleName">A M Garner</h1>
       <nav>
-        <ul class="nav bar">
+        <ul class="nav-bar">
           <li>
             <a href="#About-me">About me</a>
           </li>
@@ -24,34 +24,93 @@
           <li>
             <a href="#Contact-me">Contact me</a>
           </li>
+          <li>
+            <a href="#Contact-me">Resume</a>
+          </li>
         </ul>
       </nav>
   </header>
-  <br>
 
   <!-- hero banner -->
   <section class="hero-banner">
     <div class="banner">
-      <h2>Web Developer</h2>
+      <h2 class="hero-title">Web Developer</h2>
     </div>
   </section>
-  <br><br>
+  <br>
 
   <main class="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="About-me">
-      <h2>About Me</h2>
-      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ,br.but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    </section>
+      <h2 class="title">About Me</h2>
+      <p class="aboutMeText">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ,br.but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+      <br>
+      <p class="aboutMeText">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ,br.but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </section>  
+    
 
     <!-- portfolio container -->
     <section class="page-section" id="Work">
-      <h2>Work</h2>
-    </section>
+      <h2 class="title">Work</h2>
+      <div class="projectsContainer">
+        <div class="surfReport">
+          <img src="./images/02-portfolio-4.jpg" alt="surfer">
+          <div class="text-block" id="item1">
+            <h3>Surf Report</h3>
+            <p>MERN Stack</p>
+          </div>
+        </div>
+        <div class="ledWall">
+          <img src="./images/02-portfolio-1.jpg" alt="led light on a wall">
+          <div class="text-block" id="item2">
+            <h3>LED Wall</h3>
+            <p>Node/loT</p>
+          </div>
+        </div>
+        <div class="calculator">
+          <img src="./images/02-portfolio-2.jpg" alt="calculator on a laptop">
+          <div class="text-block" id="item2">
+            <h3>Calculator</h3>
+            <p>React/JavaScript/CSS</p>
+          </div>
+        </div>
+        <div class="pastelPuzzels">
+          <img src="./images/02-portfolio-3.jpg" alt="car on a white and pink ground">
+          <div class="text-block" id="item2">
+            <h3>Pastel Puzzels</h3>
+            <p>MERN Stack</p>
+          </div>
+        </div>
+        <div class="runBuddy">
+          <img src="./images/02-run-buddy.jpg" alt="run buddy's home page">
+          <div class="text-block" id="item2">
+            <h3>Run Buddy</h3>
+            <p>HTML/CSS</p>
+          </div>
+        </div>
+      </div>    
+    </section>  
+    
 
     <!-- contact -->
-    <section class="page-section contact" id="Contact-me">
-      <h2>Contact Me</h2>
+    <section class="endnav" id="Contact-me">
+      <h4 class="title">Contact Me</h4>
+      <nav>
+        <ul class="endNavBar">
+          <li>
+            07983645283
+          </li>
+          <li>
+            aqeel.garner1@gmail.com
+          </li>
+          <li>
+            <a href="https://github.com/AqeelMGarner">Github</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/">Twitter</a>
+          </li>
+        </ul>
+      </nav>
     </section>
   </main>
 </body>

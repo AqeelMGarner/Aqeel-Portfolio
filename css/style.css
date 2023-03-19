@@ -7,11 +7,12 @@
 }
 
 body {
-  margin: 0;
+  margin: 2px;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   background-color: darkgrey;
+  border: 10px;
 }
 
 h1,
@@ -26,15 +27,19 @@ h6 {
 p {
   margin: 0;
 }
+img {
+  height: 150px;
+  width: 150px;
+}
 .header {
   padding: 15px;
   font-family: var(-font-family);
-  background-color: yellow;
+  background-color: rgb(48, 48, 56);
 
 }
 .header h1 {
   font-size: 25px;
-  color: blue;
+  color: rgb(48, 48, 56);
   display: inline-block;
 }
 .header nav {
@@ -43,18 +48,69 @@ p {
   margin-right: 20px;
 }
 .header ul li {
-  display: inline-block;
+  display: inline;
+  padding-left: 10px;
+  font-size: 25px;
 }
-.nav bar {
+.titleName {
+  font-size: 25px;
+  background-color: aqua
+}
+.nav-bar {
   height: 15px;
   display: flex;
+  color: aqua;
   justify-content: space-between;
   align-content: stretch;
 }
-.hero-banner {
-  float: right;
-  background-color: aqua;
+.banner {
   background-image: url("../images/02-hero-bg.jpg");
-  background-position: center;
-  background-size: 250px;
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  height: 250px;
+}
+.hero-title {
+  color: rgb(48, 48, 56);
+  float: right;
+  padding-right: 35px;
+  background-color: aqua;
+  position: bottom right;
+}
+.title {
+  font-size: 30px;
+
+}
+.aboutMeText {
+  font-size: 25px;
+}
+.page-wrapper {
+  display: grid;
+  justify-content: space-evenly;
+}
+.projectsContainer {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 50px 50px;
+  gap: 10px;
+  padding: 10px;
+}
+.text-block {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  width: 220px;
+  background-color: aqua;
+  color: rgb(48, 48, 56);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+.endNavBar {
+  height: 15px;
+  display: inline-block;
+  color: aqua;
+}
+.endnav {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
 }
