@@ -8,6 +8,7 @@ My motivation for building this website is to show employers a bit about myself 
 
 ## Usage
 In the website you will be able to see how to contact me by go to the "Contact me" section and within the "Work" section you will be able to see some project I've worked on. 
+For a visual aid please refer to the assets/images for screenshots 
 ## Credits
 "N/A"
 
