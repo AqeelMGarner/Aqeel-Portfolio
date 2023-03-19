@@ -8,9 +8,15 @@ My motivation for building this website is to show employers a bit about myself 
 
 ## Usage
 In the website you will be able to see how to contact me by go to the "Contact me" section and within the "Work" section you will be able to see some project I've worked on. 
-For a visual aid please refer to the assets/images for screenshots 
+For a visual aid please refer to the assets/images for screenshots.
+![alt text](assets/images/Screenshot%202023-03-19%2022.04.41.png)
+![alt text](assets/images/Screenshot%202023-03-19%2022.04.52.png)
+![alt text](assets/images/Screenshot%202023-03-19%2022.05.01.png)
 ## Credits
 "N/A"
 
 ## License
 Please refer to the LICENSE in the repo
+
+## link 
+https://aqeelmgarner.github.io/Aqeel-Portfolio/
