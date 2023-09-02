@@ -14,6 +14,19 @@ body {
   border: 10px;
 }
 
+a:link{
+  color: #176B87;
+}
+a:hover{
+  color: #053B50;
+}
+a:active{
+  color:#EEEEEE;
+}
+a:visited{
+  color: #176B87;
+}
+
 h1,
 h2,
 h3,
@@ -34,7 +47,7 @@ img {
   padding: 15px;
   font-family: var(-font-family);
   background-color: #64CCC5;
-
+  margin-bottom: 20px;
 }
 .header h1 {
   font-size: 25px;
@@ -50,6 +63,7 @@ img {
   display: inline;
   padding-left: 10px;
   font-size: 25px;
+  color:#176B87
 }
 .titleName {
   font-size: 25px;
