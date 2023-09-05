@@ -130,10 +130,15 @@ a {
   font-size: 20px;
 }
 /*contact section*/
-.endNavBar {
-  display: inline-block;
+#footer {
   float: right;
-  padding-left: 10px;
+  background-color: #053B50;
+}
+#footer li{
+  display: inline;
+}
+.endNavBar {
+  padding-left: 20px;
   font-size: 25px;
   color:#EEEEEE;
 }
